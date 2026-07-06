@@ -589,7 +589,7 @@ footer .summit {
 @media (max-width: 640px) {
     footer {
         text-align: left;
-        padding-left: 20.5%;
+        padding-left: 15%;
     }
 
     .back-to-top {
