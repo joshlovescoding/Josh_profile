@@ -584,3 +584,21 @@ footer .summit {
     width: 14px;
     height: 14px;
 }
+
+/* phone-only override: force footer text and back-to-top button to true center */
+@media (max-width: 640px) {
+    footer {
+        text-align: center;
+        padding-right: 28px;
+    }
+
+    .back-to-top {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) translateY(12px);
+    }
+
+    .back-to-top.visible {
+        transform: translateX(-50%) translateY(0);
+    }
+}
