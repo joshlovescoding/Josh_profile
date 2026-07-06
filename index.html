@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>アキラ | プロフィール</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav class="quicknav" id="quicknav" aria-label="ページ内ナビゲーション">
+            <a href="#about" class="quicknav-link">
+                <span class="full">自己紹介</span><span class="short">紹</span>
+            </a>
+            <a href="#hobbies" class="quicknav-link">
+                <span class="full">趣味</span><span class="short">趣</span>
+            </a>
+            <a href="#study" class="quicknav-link">
+                <span class="full">学業</span><span class="short">学</span>
+            </a>
+            <a href="#moments" class="quicknav-link">
+                <span class="full">思い出</span><span class="short">思</span>
+            </a>
+        </nav>
+
+        <button
+            id="backToTop"
+            class="back-to-top"
+            aria-label="ページの一番上へ戻る"
+        >
+            <svg viewBox="0 0 24 24">
+                <path
+                    d="M12 19 V5 M6 11 L12 5 L18 11"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                />
+            </svg>
+            <span>Top</span>
+        </button>
+
+        <header class="hero">
+            <svg
+                class="contour-bg"
+                viewBox="0 0 1200 800"
+                preserveAspectRatio="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <g fill="none" stroke="#f4efe2" stroke-width="1">
+                    <path
+                        d="M-50,650 C150,600 250,700 400,630 C550,560 650,660 800,600 C950,540 1050,610 1250,560"
+                        opacity="0.5"
+                    />
+                    <path
+                        d="M-50,590 C150,540 250,640 400,570 C550,500 650,600 800,540 C950,480 1050,550 1250,500"
+                        opacity="0.4"
+                    />
+                    <path
+                        d="M-50,530 C150,480 250,580 400,510 C550,440 650,540 800,480 C950,420 1050,490 1250,440"
+                        opacity="0.35"
+                    />
+                    <path
+                        d="M-50,470 C150,420 250,520 400,450 C550,380 650,480 800,420 C950,360 1050,430 1250,380"
+                        opacity="0.3"
+                    />
+                    <path
+                        d="M-50,410 C150,360 250,460 400,390 C550,320 650,420 800,360 C950,300 1050,370 1250,320"
+                        opacity="0.25"
+                    />
+                    <path
+                        d="M-50,350 C150,300 250,400 400,330 C550,260 650,360 800,300 C950,240 1050,310 1250,260"
+                        opacity="0.2"
+                    />
+                </g>
+            </svg>
+
+            <div class="hero-inner">
+                <div class="eyebrow">Profile — Osaka, Japan</div>
+                <div class="name-row">
+                    <img
+                        class="avatar"
+                        src="image/akira_photo.jpg"
+                        alt="アキラの写真"
+                    />
+                    <h1 class="name">アキラ</h1>
+                </div>
+                <div class="name-sub">AKIRA / 25歳 / 中国出身</div>
+                <p class="hero-tagline">
+                    山を登り、本を読み、コードを書く。<br />大阪で学ぶIT系専門学校生の記録。
+                </p>
+
+                <div class="elev-stats">
+                    <div class="elev-stat">
+                        <div class="num">25</div>
+                        <div class="lbl">AGE</div>
+                    </div>
+                    <div class="elev-stat">
+                        <div class="num">CN → JP</div>
+                        <div class="lbl">ORIGIN</div>
+                    </div>
+                    <div class="elev-stat">
+                        <div class="num">IT</div>
+                        <div class="lbl">MAJOR</div>
+                    </div>
+                    <div class="elev-stat">
+                        <div class="num">大阪</div>
+                        <div class="lbl">CITY</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="stop" id="about">
+                <div class="wrap">
+                    <div class="stop-head">Waypoint 01 — About</div>
+                    <h2>自己紹介</h2>
+                    <p class="lead">
+                        はじめまして、アキラです。<strong>中国出身、25歳</strong>で、現在は日本の大阪で暮らしながらIT分野を学んでいます。
+                        休日は都市を離れて山へ向かい、自然の中で過ごす時間を大切にしています。
+                    </p>
+
+                    <div class="about-grid">
+                        <div class="fact">
+                            <div class="k">Name</div>
+                            <div class="v">アキラ（Akira）</div>
+                        </div>
+                        <div class="fact">
+                            <div class="k">Origin</div>
+                            <div class="v">中国</div>
+                        </div>
+                        <div class="fact">
+                            <div class="k">Base</div>
+                            <div class="v">大阪府、日本</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stop" id="hobbies">
+                <div class="wrap">
+                    <div class="stop-head">Waypoint 02 — Interests</div>
+                    <h2>趣味</h2>
+                    <p class="lead">
+                        アウトドアと読書が好きです。体を動かして自然を感じる時間と、静かにページをめくる時間、どちらも自分にとって欠かせません。
+                    </p>
+
+                    <div class="trail-cards">
+                        <div class="trail-card">
+                            <svg class="icon-mark" viewBox="0 0 40 40">
+                                <path
+                                    d="M4 32 L15 14 L20 22 L25 12 L36 32 Z"
+                                    stroke-linejoin="round"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                            <div class="idx">01 / TRAIL</div>
+                            <h3>ハイキング</h3>
+                            <p>
+                                近郊の里山から日帰りの縦走まで、季節ごとの景色を歩いて楽しんでいます。
+                            </p>
+                        </div>
+                        <div class="trail-card">
+                            <svg class="icon-mark" viewBox="0 0 40 40">
+                                <path
+                                    d="M6 34 L18 10 L24 22 L30 14 L36 34 Z"
+                                    stroke-linejoin="round"
+                                    stroke-linecap="round"
+                                />
+                                <path
+                                    d="M18 10 L14 4 M18 10 L22 4"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                            <div class="idx">02 / SUMMIT</div>
+                            <h3>登山</h3>
+                            <p>
+                                本格的な山にも挑戦し、頂上を目指す過程そのものに魅力を感じています。
+                            </p>
+                        </div>
+                        <div class="trail-card">
+                            <svg class="icon-mark" viewBox="0 0 40 40">
+                                <path
+                                    d="M6 8 C14 4 20 6 20 6 C20 6 26 4 34 8 L34 32 C26 28 20 30 20 30 C20 30 14 28 6 32 Z"
+                                    stroke-linejoin="round"
+                                    stroke-linecap="round"
+                                />
+                                <path d="M20 6 L20 30" />
+                            </svg>
+                            <div class="idx">03 / PAGES</div>
+                            <h3>読書</h3>
+                            <p>
+                                小説から実用書まで幅広く読み、山で得た気づきを本の中の言葉と重ねています。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stop" id="study">
+                <div class="wrap">
+                    <div class="stop-head">Waypoint 03 — Study</div>
+                    <h2>学業</h2>
+                    <p class="lead">
+                        大阪の専門学校でITプログラミングを学び、これからの進路につながる技術を身につけている最中です。
+                    </p>
+
+                    <div class="study-panel">
+                        <div class="school">大阪バイオメディカル専門学校</div>
+                        <div class="field">IT PROGRAMMING COURSE</div>
+                        <p>
+                            プログラミングの基礎から実践までを学びながら、論理的に物事を組み立てる力を養っています。登山で培った「一歩ずつ着実に進む」姿勢は、学習にも通じるものがあると感じています。
+                        </p>
+                        <span class="code-tag">STUDENT / 在学中</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stop" id="moments">
+                <div class="wrap">
+                    <div class="stop-head">Waypoint 04 — Moments</div>
+                    <h2>思い出</h2>
+                    <p class="lead">
+                        山、寺、街の夕暮れ ──
+                        歩いた先々で出会った瞬間の記録です。
+                    </p>
+
+                    <div class="slideshow" id="slideshow">
+                        <div class="slides" id="slides">
+                            <img
+                                src="image/moment1.jpg"
+                                class="slide active"
+                                alt="山寺の鐘楼"
+                            />
+                            <img
+                                src="image/moment2.jpg"
+                                class="slide"
+                                alt="山中の滝"
+                            />
+                            <img
+                                src="image/moment3.jpg"
+                                class="slide"
+                                alt="桜と展望タワー"
+                            />
+                            <img
+                                src="image/moment4.jpg"
+                                class="slide"
+                                alt="提灯の灯る路地"
+                            />
+                            <img
+                                src="image/moment5.jpg"
+                                class="slide"
+                                alt="夕日に向かって"
+                            />
+                            <img
+                                src="image/moment6.jpg"
+                                class="slide"
+                                alt="雪山の山頂にて"
+                            />
+                            <img
+                                src="image/moment7.jpg"
+                                class="slide"
+                                alt="夕焼けと自転車置き場"
+                            />
+
+                            <button
+                                class="arrow arrow-left"
+                                id="prevBtn"
+                                aria-label="前の写真"
+                            >
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M15 5 L8 12 L15 19"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                            <button
+                                class="arrow arrow-right"
+                                id="nextBtn"
+                                aria-label="次の写真"
+                            >
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M9 5 L16 12 L9 19"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+
+                            <div class="progress-track">
+                                <div
+                                    class="progress-fill"
+                                    id="progressFill"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>AKIRA — OSAKA, JAPAN</footer>
+
+        <script>
+            (function () {
+                const slidesEl = document.getElementById("slides");
+                const slides = document.querySelectorAll("#slideshow .slide");
+                const fill = document.getElementById("progressFill");
+                const prevBtn = document.getElementById("prevBtn");
+                const nextBtn = document.getElementById("nextBtn");
+                const total = slides.length;
+                const duration = 12000; // ms per photo
+                let current = 0;
+                let timer = null;
+
+                function goTo(index, direction = 1, mode = "pop") {
+                    const prevEl = slides[current];
+                    const nextIndex = (index + total) % total;
+                    const nextEl = slides[nextIndex];
+                    if (nextEl === prevEl) return;
+
+                    slidesEl.classList.remove("mode-pop", "mode-fade");
+                    slidesEl.classList.add(
+                        mode === "fade" ? "mode-fade" : "mode-pop",
+                    );
+
+                    const enterOffset =
+                        mode === "fade"
+                            ? "0px"
+                            : direction === 1
+                              ? "48px"
+                              : "-48px";
+                    const exitOffset =
+                        mode === "fade"
+                            ? "0px"
+                            : direction === 1
+                              ? "-48px"
+                              : "48px";
+                    const scale = mode === "fade" ? "1" : "0.92";
+
+                    nextEl.style.setProperty("--enter-x", enterOffset);
+                    nextEl.style.setProperty("--enter-scale", scale);
+                    prevEl.style.setProperty("--enter-x", exitOffset);
+                    prevEl.style.setProperty("--enter-scale", scale);
+
+                    prevEl.classList.remove("active");
+                    nextEl.classList.add("active");
+                    current = nextIndex;
+                    restartProgress();
+                }
+
+                function next() {
+                    goTo(current + 1, 1, "pop");
+                }
+                function prev() {
+                    goTo(current - 1, -1, "pop");
+                }
+
+                function restartProgress() {
+                    fill.style.transition = "none";
+                    fill.style.width = "0%";
+                    // force reflow so the transition restarts cleanly
+                    void fill.offsetWidth;
+                    fill.style.transition = `width ${duration}ms linear`;
+                    fill.style.width = "100%";
+                }
+
+                function startTimer() {
+                    clearInterval(timer);
+                    timer = setInterval(
+                        () => goTo(current + 1, 1, "fade"),
+                        duration,
+                    );
+                }
+
+                nextBtn.addEventListener("click", () => {
+                    next();
+                    startTimer();
+                });
+                prevBtn.addEventListener("click", () => {
+                    prev();
+                    startTimer();
+                });
+
+                // touch swipe support for mobile
+                let touchStartX = 0;
+                slidesEl.addEventListener(
+                    "touchstart",
+                    (e) => {
+                        touchStartX = e.changedTouches[0].screenX;
+                    },
+                    { passive: true },
+                );
+
+                slidesEl.addEventListener(
+                    "touchend",
+                    (e) => {
+                        const touchEndX = e.changedTouches[0].screenX;
+                        const delta = touchEndX - touchStartX;
+                        if (Math.abs(delta) > 40) {
+                            if (delta < 0) {
+                                next();
+                            } else {
+                                prev();
+                            }
+                            startTimer();
+                        }
+                    },
+                    { passive: true },
+                );
+
+                restartProgress();
+                startTimer();
+            })();
+
+            // back-to-top button: appears once the reader reaches the bottom of the page
+            (function () {
+                const btn = document.getElementById("backToTop");
+
+                function checkPosition() {
+                    const nearBottom =
+                        window.innerHeight + window.scrollY >=
+                        document.documentElement.scrollHeight - 40;
+                    btn.classList.toggle("visible", nearBottom);
+                }
+
+                window.addEventListener("scroll", checkPosition, {
+                    passive: true,
+                });
+                window.addEventListener("resize", checkPosition);
+                checkPosition();
+
+                btn.addEventListener("click", () => {
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                });
+            })();
+        </script>
+    </body>
+</html>
